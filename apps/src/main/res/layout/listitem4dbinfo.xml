@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="14dp"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="Title"
+        android:textSize="16sp"/>
+    <!-- <TextView
+        android:text="Mall"
+        android:textStyle="bold"
+        android:layout_marginRight="4dp"
+        android:gravity="right"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/tv_mallname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"/> -->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_marginRight="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="시작가:"/>
+        <TextView
+            android:id="@+id/tv_first_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:textColor="#FF888888"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="4dp"
+            android:layout_marginLeft="20dp"
+            android:text="이전가:"/>
+        <TextView
+            android:id="@+id/tv_user_checked_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:textColor="#FF888888"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="4dp"
+            android:layout_marginLeft="20dp"
+            android:text="현재가:"/>
+        <LinearLayout
+            android:id="@+id/ll_last_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/tv_last_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-"
+                android:textColor="#FF888888"/>
+            <TextView
+                android:id="@+id/tv_last_price_result"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(Up)"/>
+        </LinearLayout>
+
+        <!-- <TextView
+            android:id="@+id/title_last_update"
+            android:text="Last Update"
+            android:textStyle="bold"
+            android:layout_marginRight="4dp"
+            android:layout_toRightOf="@id/ll_last_price"
+            android:layout_alignBaseline="@id/title_user_checked_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/tv_last_update"
+            android:layout_toRightOf="@id/title_last_update"
+            android:layout_alignBaseline="@id/title_last_update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10sp"/> -->
+    </LinearLayout>
+
+</LinearLayout>

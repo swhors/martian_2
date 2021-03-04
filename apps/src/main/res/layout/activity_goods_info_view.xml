@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="10"
+    android:rowCount="14">
+    <TextView
+        android:layout_columnSpan="10"
+        android:layout_rowSpan="2"
+        android:text=" "/>
+    <TextView
+        android:id="@+id/tv_goodstitle"
+        android:layout_columnSpan="10"/>
+    <TextView
+        android:layout_columnSpan="10"
+        android:layout_rowSpan="2"
+        android:text=" "/>
+    <ImageView
+        android:id="@+id/iv_goodsimage"
+        android:layout_columnSpan="10"
+        android:layout_rowSpan="4"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_gravity="center_horizontal"/>
+    <TextView
+        android:layout_columnSpan="10"
+        android:layout_rowSpan="2"
+        android:text=" "/>
+    <TextView
+        android:id="@+id/tv_price"
+        android:layout_columnSpan="3"
+        android:layout_rowSpan="2"
+        android:layout_marginRight="3dp"
+        android:text="Price"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/tv_lprice_title"
+        android:layout_columnSpan="2"
+        android:layout_marginRight="3dp"
+        android:text="Low Price"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/tv_lprice"
+        android:layout_columnSpan="5"/>
+    <TextView
+        android:id="@+id/tv_hprice_title"
+        android:layout_columnSpan="2"
+        android:layout_marginRight="3dp"
+        android:text="High Price"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/tv_hprice"
+        android:layout_columnSpan="5"/>
+    <TextView
+        android:layout_columnSpan="10"
+        android:layout_rowSpan="1"
+        android:text=" "/>
+    <TextView
+        android:id="@+id/tv_goodsid_title"
+        android:layout_columnSpan="5"
+        android:layout_marginRight="3dp"
+        android:text="Goods Id"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/tv_goodsid"
+        android:layout_columnSpan="5"/>
+    <TextView
+        android:layout_columnSpan="10"
+        android:layout_rowSpan="1"
+        android:text=" "/>
+    <TextView
+        android:id="@+id/tv_mallname_title"
+        android:layout_columnSpan="5"
+        android:layout_marginRight="3dp"
+        android:text="Mall"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/tv_mallname"
+        android:layout_columnSpan="5"/>
+    <TextView
+        android:id="@+id/tv_lastprice_title"
+        android:layout_columnSpan="5"
+        android:layout_marginRight="3dp"
+        android:text="lastPrice"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/tv_lastprice"
+        android:layout_columnSpan="5"/>
+    <TextView
+        android:id="@+id/tv_lastupdate_title"
+        android:layout_columnSpan="5"
+        android:layout_marginRight="3dp"
+        android:text="lastUpdate"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/tv_lastupdate"
+        android:layout_columnSpan="5"/>
+</GridLayout>

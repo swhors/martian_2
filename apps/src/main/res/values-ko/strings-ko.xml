@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="currency">"원"</string>
+    <string name="tracking">"가격추적"</string>
+    <string name="now_tracking">"가격추적 중"</string>
+    <string name="input_keyword">"상품명을 입력하세요."</string>
+</resources>

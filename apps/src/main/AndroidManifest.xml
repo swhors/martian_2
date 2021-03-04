@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.martian.bpa" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:noHistory="false"
+            android:launchMode="singleTask"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".GoodSearchActivity"
+            android:noHistory="false" >
+        </activity>
+        <activity android:name=".DBDataListView" >
+        </activity>
+        <activity android:name=".SettingActivity" >
+        </activity>
+        <activity android:name=".GoodsInfoViewActivity" >
+        </activity>
+        <activity android:name=".GoodsItemViewWithGridActivity"
+            android:noHistory="false"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity android:name=".WebViewActivity" >
+        </activity>
+        <activity android:name=".PopupWebViewActivity"
+            android:theme="@style/BPA.Theme.Dialog">
+        </activity>
+
+        <service android:name=".service.TrackingService" >
+            <intent-filter>
+                <action android:name="com.martian.bpa.SERVICE_START" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+
+        <receiver android:name=".alarm.AlarmReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="com.martian.bpa.ALARM_ALERT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:longClickable="true"
+    android:layout_columnWeight="1"
+    android:layout_gravity="fill"
+    android:padding="4dp"
+    android:focusable="false"
+    android:background="@drawable/rounded_corner_item" >
+    <ImageView
+        android:cropToPadding="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="fitXY"
+        android:focusable="false"
+        android:adjustViewBounds="true"
+        android:layout_margin="-500dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:background="@android:color/transparent"
+        android:id="@+id/iv_goodsimage"/>
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_below="@+id/iv_goodsimage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minLines="2"
+        android:focusable="false"
+        android:textSize="14sp"
+        android:text="title"/>
+    <TextView
+        android:id="@+id/tv_last_price_result"
+        style="@style/BPA.PriceText.Mid"
+        android:paddingLeft="5dp"
+        android:focusable="false"
+        android:layout_below="@+id/tv_title"
+        android:text="last price result"/>
+    <TextView
+        android:layout_below="@+id/tv_last_price_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:focusable="false"
+        android:id="@+id/tv_goodsid"/>
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">martion-2</string>
+    <string name="action_settings">환경설정</string>
+    <string name="title_delete">삼품삭제</string>
+    <string name="title_search">상품검색</string>
+    <string name="title_update">상품갱신</string>
+    <string name="title_tracking">"상품추적"</string>
+    <string name="title_test">"테스트"</string>
+    <string name="title_test_tracking">"추적테스트"</string>
+    <string name="title_test_pop_menu_upprice">"+1000(Test)"</string>
+    <string name="title_test_pop_menu_downprice">"-1000(Test)"</string>
+    <string name="title_test_up_price">"+1000(Test)"</string>
+    <string name="title_test_down_price">"-1000(Test)"</string>
+    <string name="title_test_no_user_check">"No User Check(Test)"</string>
+    <string name="title_tracking_enable">Tracking Enable</string>
+    <string name="title_trackinglist">Your Tracking List</string>
+    <string name="title_searchkeyword">Search Keyword</string>
+    <string name="currency">"$"</string>
+    <string name="tracking">Tracking</string>
+    <string name="now_tracking">Now Tracking</string>
+</resources>
